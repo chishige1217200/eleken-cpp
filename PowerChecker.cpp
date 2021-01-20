@@ -67,7 +67,7 @@ void managetime(void) {
 
 int main(void) {
 
-	printf("AC電源接続監視ツールv1.0.5 (c) Daichi Shigechika 2019 - 2020.\n\n");
+	printf("AC電源接続監視ツールv1.0.5 (c) Chishige 2019 - 2020.\n\n");
 	firstcheck();
 	while (1) {
 	
