@@ -1,6 +1,7 @@
 # eleken-cpp
 This is monitoring program using outlet.
 # How to use
+You can use this program on Windows PC(x86, x64).
 1. Before you start monitoring program, you have to put a plug into the outlet, because this program checks power status to monitor PC.
 2. After starting program, program checks power status that PC is plugged or unplugged.
 3. The moment PC is unplugged, this program alerts by sound.
