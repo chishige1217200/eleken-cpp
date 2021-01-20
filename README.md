@@ -10,6 +10,5 @@ I imagine this program will be used in silent place like library.
 When PC will be stolen by someone, the criminal must unplug first.
 Then, PC sounds alert, people near PC percieve absconding.
 
-**Attention**
-I don't guarantee PC's safety!!
-You have to use this program on your own responsibility.
+# Attention
+**I don't guarantee PC's safety!! You have to use this program on your own responsibility.**
