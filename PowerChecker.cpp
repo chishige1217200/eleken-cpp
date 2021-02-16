@@ -40,8 +40,6 @@ void docheck(void) {
 		printf("正常\n");
 		c = 1;																			//cに1を代入
 	}
-	Sleep(1000);
-
 }
 
 void managetime(void) {
@@ -63,6 +61,7 @@ void managetime(void) {
 	if (m != 0 && h == 0) printf("監視中...(%02dm%02ds)\n", m, i);	//0時間で0分でないとき、分と秒数を表示
 	if (h != 0) printf("監視中...(%02dh%02dm%02ds)\n", h, m, i);		//0時間でないとき、時間と分と秒数を表示
 	i++;														//1秒増やす
+	Sleep(1000);
 }
 
 int main(void) {
@@ -70,7 +69,6 @@ int main(void) {
 	printf("AC電源接続監視ツールv1.0.5 (c) Chishige 2019 - 2020.\n\n");
 	firstcheck();
 	while (1) {
-	
 		managetime();
 		docheck();
 		if (c == 1)
@@ -81,7 +79,6 @@ int main(void) {
 	printf("\n監視を終了しました．\n自動で終了します．\n");
 	Sleep(5000);													//5秒待機する
 	return 0;
-
 }
 
 // プログラムの実行: Ctrl + F5 または [デバッグ] > [デバッグなしで開始] メニュー
